@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 100px; /* Set the fixed width */
+    height: 50px; /* Set the fixed height */
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.status-ok {
+    background-color: #d4edda;
+}
+
+.status-maybe {
+    background-color: #ffeeba;
+}
+
+.status-no {
+    background-color: #f8d7da;
+}
